@@ -5,10 +5,10 @@
         "color":"primary",
         "icono":"add-circle"
     },
-        {
-        "nombre":"Botones",
-        "ruta":"/botones",
-        "color":"primary",
+    {
+        "nombre":"PopOver",
+        "ruta":"/PopOver",
+        "color":"Danger",
         "icono":"add-circle"
     }
 ]
