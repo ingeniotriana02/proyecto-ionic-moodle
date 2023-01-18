@@ -6,9 +6,33 @@
         "icono":"add-circle"
     },
     {
-        "nombre":"PopOver",
-        "ruta":"/PopOver",
-        "color":"Danger",
-        "icono":"albums-outline"
+        "nombre":"Toggle",
+        "ruta":"/toggle",
+        "color":"secondary",
+        "icono":"toggle"
+    },
+    {
+        "nombre":"Checkbox",
+        "ruta":"/checkbox",
+        "color":"tertiary",
+        "icono":"checkbox"
+    },
+    {
+        "nombre":"Select",
+        "ruta":"/Select",
+        "color":"success",
+        "icono":"checkmark"
+    },
+    {
+        "nombre":"Navegación",
+        "ruta":"/navegacion",
+        "color":"danger",
+        "icono":"git-branch"
+    },
+    {
+        "nombre":"Inputs",
+        "ruta":"/inputs",
+        "color":"warning",
+        "icono":"text"
     }
 ]
