@@ -4,5 +4,11 @@
         "ruta":"/botones",
         "color":"primary",
         "icono":"add-circle"
+    },
+    {
+        "nombre":"Toggle",
+        "ruta":"/toggle",
+        "color":"danger",
+        "icono":"toggle"
     }
 ]

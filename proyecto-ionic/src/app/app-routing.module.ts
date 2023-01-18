@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'botones',
     loadChildren: () => import('./paginas/botones/botones.module').then( m => m.BotonesPageModule)
+  },  {
+    path: 'toggle',
+    loadChildren: () => import('./paginas/toggle/toggle.module').then( m => m.TogglePageModule)
   },
+
 ];
 
 @NgModule({
