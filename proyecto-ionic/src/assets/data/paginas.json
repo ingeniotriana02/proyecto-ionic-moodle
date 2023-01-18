@@ -4,5 +4,35 @@
         "ruta":"/botones",
         "color":"primary",
         "icono":"add-circle"
+    },
+    {
+        "nombre":"Toggle",
+        "ruta":"/toggle",
+        "color":"secondary",
+        "icono":"toggle"
+    },
+    {
+        "nombre":"Checkbox",
+        "ruta":"/checkbox",
+        "color":"tertiary",
+        "icono":"checkbox"
+    },
+    {
+        "nombre":"Select",
+        "ruta":"/Select",
+        "color":"success",
+        "icono":"checkmark"
+    },
+    {
+        "nombre":"Navegación",
+        "ruta":"/navegacion",
+        "color":"danger",
+        "icono":"git-branch"
+    },
+    {
+        "nombre":"Inputs",
+        "ruta":"/inputs",
+        "color":"warning",
+        "icono":"text"
     }
 ]
