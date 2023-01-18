@@ -1,0 +1,8 @@
+[
+    {
+        "nombre":"Botones",
+        "ruta":"/botones",
+        "color":"primary",
+        "icono":"add-circle"
+    }
+]

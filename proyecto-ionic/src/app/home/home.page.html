@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+    <ion-item *ngFor="let pagina of paginas" [color]="pagina.color" [routerLink]="pagina.ruta" detail>
+      <ion-icon slot="start" [name]="pagina.icono"></ion-icon>
+      {{pagina.nombre}}
+    </ion-item>
+  </ion-list>
+
+</ion-content>
