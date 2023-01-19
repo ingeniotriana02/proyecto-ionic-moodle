@@ -6,6 +6,12 @@
         "icono":"add-circle"
     },
     {
+        "nombre":"Item",
+        "ruta":"/item",
+        "color":"danger",
+        "icono":"apps-outline"
+    },
+    {
         "nombre":"Toggle",
         "ruta":"/toggle",
         "color":"secondary",

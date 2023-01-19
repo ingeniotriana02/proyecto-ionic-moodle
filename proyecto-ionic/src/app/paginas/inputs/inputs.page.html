@@ -1,0 +1,149 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>inputs</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item color="primary">
+    <ion-label>
+      <h1>Inputs normales</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input normal</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input con un placeholder</ion-label>
+    <ion-input placeholder="Esto es el placeholder"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input con valor</ion-label>
+    <ion-input value="Ingenio Triana"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Solo de lectura</ion-label>
+    <ion-input value="Ingenio triana" [readonly]="true"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input desabilitado</ion-label>
+    <ion-input value="9999" [disabled]="true"></ion-input>
+  </ion-item>
+
+  <ion-item color="secondary">
+    <ion-label>
+      <h1>Clases de inputs</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input de texto</ion-label>
+    <ion-input placeholder="Solo texto"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input de numero</ion-label>
+    <ion-input type="number" placeholder="000"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input de contraseña</ion-label>
+    <ion-input type="password" value="password"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input de email</ion-label>
+    <ion-input type="email" placeholder="email@domain.com"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Input de telefono</ion-label>
+    <ion-input type="tel" placeholder="888-888-8888"></ion-input>
+  </ion-item>
+
+  <ion-item color="tertiary">
+    <ion-label>
+      <h1>Posicion de los inputs</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Text</ion-label>
+    <ion-input placeholder="Enter text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="fixed">Text</ion-label>
+    <ion-input placeholder="Enter text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Texto abajo</ion-label>
+    <ion-input placeholder="Enter text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Texto oculto hasta el click</ion-label>
+    <ion-input placeholder="Enter text"></ion-input>
+  </ion-item>
+
+  <ion-item color="warning">
+    <ion-label>
+      <h1>Boton de borrado</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Input con boton de borrado</ion-label>
+    <ion-input [clearInput]="true" placeholder="Escriba texto para que aparezca el boton de borrado" value="Valor por defecto">
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item color="danger">
+    <ion-label>
+      <h1>Texto de ayuda y error</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input type="email" ngModel email></ion-input>
+    <ion-note slot="helper">Escriba algo como lo siguiente "prueba@gmail.com"</ion-note>
+    <ion-note slot="error">Email invalido</ion-note>
+  </ion-item>
+
+  <ion-item color="dark">
+    <ion-label>
+      <h1>Contador de palabras</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-item counter="true">
+    <ion-label position="floating">Contador de palabras</ion-label>
+    <ion-input maxlength="20"></ion-input>
+  </ion-item>
+
+  <ion-item id="custom-item" counter="true" [counterFormatter]="customCounterFormatter">
+    <ion-label position="floating">Contador con formato personalizado</ion-label>
+    <ion-input maxlength="20"></ion-input>
+  </ion-item>
+
+  <ion-item color="success">
+    <ion-label>
+      <h1>Colores de inputs</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-input color="tertiary" placeholder="Input azul"></ion-input>
+  <ion-input color="dark" placeholder="Input gris"></ion-input>
+  <ion-input color="warning" placeholder="Input rojo"></ion-input>
+  <ion-input class="custom" placeholder="Input personalizado"></ion-input>
+
+</ion-content>

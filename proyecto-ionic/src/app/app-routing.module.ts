@@ -14,7 +14,15 @@ const routes: Routes = [
   {
     path: 'botones',
     loadChildren: () => import('./paginas/botones/botones.module').then( m => m.BotonesPageModule)
+  },  {
+    path: 'item',
+    loadChildren: () => import('./paginas/item/item.module').then( m => m.ItemPageModule)
   },
+  {
+    path: 'inputs',
+    loadChildren: () => import('./paginas/inputs/inputs.module').then( m => m.InputsPageModule)
+  },
+
 ];
 
 @NgModule({
