@@ -10,5 +10,31 @@
         "ruta":"/toggle",
         "color":"danger",
         "icono":"toggle"
+    },
+    {
+        "nombre":"CheckBox",
+        "ruta":"/checkbox",
+        "color":"secondary",
+        "icono":"checkbox"
+    },
+    {
+        "nombre":"Select",
+        "ruta":"/select",
+        "color":"tertiary",
+        "icono":"checkmark"
+    },
+    {
+        "nombre":"Navegacion",
+        "ruta":"/navegacion",
+        "color":"success",
+        "icono":"git-branch"
+    },
+    {
+        "nombre":"Inputs",
+        "ruta":"/inputs",
+        "color":"warning",
+        "icono":"arrow-redo"
     }
+
+    
 ]

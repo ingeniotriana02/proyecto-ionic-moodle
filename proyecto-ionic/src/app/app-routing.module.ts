@@ -14,10 +14,27 @@ const routes: Routes = [
   {
     path: 'botones',
     loadChildren: () => import('./paginas/botones/botones.module').then( m => m.BotonesPageModule)
-  },  {
+  },
+  {
     path: 'toggle',
     loadChildren: () => import('./paginas/toggle/toggle.module').then( m => m.TogglePageModule)
   },
+  {
+    path: 'checkbox',
+    loadChildren: () => import('./paginas/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
+  },
+  {
+    path: 'select',
+    loadChildren: () => import('./paginas/select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'navegacion',
+    loadChildren: () => import('./paginas/navegacion/navegacion.module').then( m => m.NavegacionPageModule)
+  },
+  {
+    path: 'inputs',
+    loadChildren: () => import('./paginas/inputs/inputs.module').then( m => m.InputsPageModule)
+  }
 
 ];
 
