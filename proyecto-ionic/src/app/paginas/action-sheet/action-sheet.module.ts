@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { PaginasPageRoutingModule } from './paginas-routing.module';
+import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
 
-import { PaginasPage } from './paginas.page';
+import { ActionSheetPage } from './action-sheet.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PaginasPageRoutingModule
+    ActionSheetPageRoutingModule
   ],
-  declarations: [PaginasPage]
+  declarations: [ActionSheetPage]
 })
-export class PaginasPageModule {}
+export class ActionSheetPageModule {}

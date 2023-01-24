@@ -40,5 +40,11 @@
         "ruta":"/inputs",
         "color":"warning",
         "icono":"text"
-    }
+    },
+    {
+      "nombre":"Action-sheet",
+      "ruta":"/action-sheet",
+      "color":"primary",
+      "icono":"text"
+  }
 ]

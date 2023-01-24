@@ -24,3 +24,20 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-action-sheet.clase-custom .action-sheet-group {
+  background: #f58840;
+}
+
+ion-action-sheet.clase-custom .action-sheet-title {
+  color: #fff;
+}
+
+ion-action-sheet.clase-custom .action-sheet-cancel::after {
+  background: #e97223;
+}
+
+ion-action-sheet.clase-custom .action-sheet-button,
+ion-action-sheet.clase-custom .action-sheet-button.ion-focused {
+  color: #000000;
+}

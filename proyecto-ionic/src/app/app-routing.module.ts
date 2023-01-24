@@ -39,6 +39,10 @@ const routes: Routes = [
     path: 'navegacion',
     loadChildren: () => import('./paginas/navegacion/navegacion.module').then( m => m.NavegacionPageModule)
   },
+  {
+    path: 'action-sheet',
+    loadChildren: () => import('./paginas/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
+  }
 
 ];
 
