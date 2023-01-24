@@ -34,7 +34,14 @@
         "ruta":"/inputs",
         "color":"warning",
         "icono":"arrow-redo"
+    },
+    {
+        "nombre":"Items",
+        "ruta":"/items",
+        "color":"medium",
+        "icono":"pricetag"
     }
+    
 
     
 ]

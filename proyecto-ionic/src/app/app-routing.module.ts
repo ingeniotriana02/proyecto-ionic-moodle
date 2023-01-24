@@ -34,6 +34,10 @@ const routes: Routes = [
   {
     path: 'inputs',
     loadChildren: () => import('./paginas/inputs/inputs.module').then( m => m.InputsPageModule)
+  },
+  {
+    path: 'items',
+    loadChildren: () => import('./paginas/items/items.module').then( m => m.ItemsPageModule)
   }
 
 ];

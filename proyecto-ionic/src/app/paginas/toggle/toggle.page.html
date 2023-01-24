@@ -5,5 +5,105 @@
 </ion-header>
 
 <ion-content>
+  <p> &nbsp; Los toggles son interruptores que cambian el estado de una sola opción. Se pueden encender o apagar presionándolos o deslizándolos. También se pueden verificar mediante <br> &nbsp; programación configurando la propiedad marcada.</p>
+  <h1> &nbsp;  <b><u>1. USO BÁSICO</u></b></h1>
+  <p> &nbsp; Tenemos varios tipos:
+    <ion-list>
+      <ion-item>
+        <ion-label>Default Toggle</ion-label>
+        <ion-toggle slot="end"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Checked Toggle</ion-label>
+        <ion-toggle slot="end" [checked]="true"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Disabled Toggle</ion-label>
+        <ion-toggle slot="end" [disabled]="true"></ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-label>Disabled Checked Toggle</ion-label>
+        <ion-toggle slot="end" [checked]="true" [disabled]="true"></ion-toggle>
+      </ion-item>
+    </ion-list>
+    <br>
+
+    &nbsp;  ->En primer lugar tenemos un <b>"Default Toggle"</b> lo que quiere decir que el toggle está apagado. <br><br>
+    &nbsp; ->También nos encontramos con la opción <b>"Checked Toggle"</b> que es lo contrario al anterior, el toggle se encuentra encendido.<br> <br>
+    &nbsp; ->Y por último tenemos dos <b>"Disabled"</b> toggles que están desactivados por lo que no es posible su funcionamiento. <br><br>
+    &nbsp; En la siguiente imagen se muestra el código para cada uno de los toggles explicados anteriormente.
+  </p>
+  &nbsp; <img src="toggle.png">
+  <br>
+  <h1> &nbsp; <b><u>2. ON/OFF ETIQUETAS</u></b></h1>
+  <p> &nbsp; Los toggles pueden habilitar etiquetas de encendido/apagado configurando la propiedad <b>"enableOnOffLabels"</b>. Esto es importante para la accesibilidad ya que facilita la  <br> &nbsp; diferenciación entre un toggle marcado y no marcado.
+    <br>
+    <ion-toggle [enableOnOffLabels]="true"></ion-toggle>
+    <br>
+    &nbsp; Cuando el toggle se encuentra <b>apagado</b> aparece en forma <b>gris</b> y con <b>"-"</b>; mientras que si lo <b>encendemos</b> ("haciendo click sobre él") se cambia a <b>azul</b> y saldría un <b>"check"</b>. 
+    El código <br> &nbsp; para hacer esto es el siguiente:
+    <br>
+    <br>
+    &nbsp; <img src="toggle2.png">
+  </p>
+  <h1> &nbsp; <b><u>3. TEMATIZACIÓN</u></b> </h1>
+  <h3> &nbsp;  &nbsp; <b><u>3.1 Colores</u></b></h3>
+  <p> 
+    <ion-toggle color="primary" [checked]="true"></ion-toggle>
+<ion-toggle color="secondary" [checked]="true"></ion-toggle>
+<ion-toggle color="tertiary" [checked]="true"></ion-toggle>
+<ion-toggle color="success" [checked]="true"></ion-toggle>
+<ion-toggle color="warning" [checked]="true"></ion-toggle>
+<ion-toggle color="danger" [checked]="true"></ion-toggle>
+<ion-toggle color="light" [checked]="true"></ion-toggle>
+<ion-toggle color="medium" [checked]="true"></ion-toggle>
+<ion-toggle color="dark" [checked]="true"></ion-toggle>
+<br>
+&nbsp; Estos son los colores que podemos poner a nuestro toggle. Cada color tiene un nombre específico que debemos saber:<br><br>
+&nbsp; ->El primero que nos encontramos tiene por nombre <b>"primary"</b>.<br><br>
+&nbsp; ->El segundo, <b>"secondary"</b>.<br><br>
+&nbsp; ->El tercero, <b>"terciary"</b>.<br><br>
+&nbsp; ->El cuarto, correspondiente al verde, <b>"success"</b>.<br><br>
+&nbsp; ->El quinto, amarillo, <b>"warning"</b>.<br><br>
+&nbsp; ->El sexto, rojo, <b>"danger"</b>.<br><br>
+&nbsp; ->El séptimo, negro, <b>"dark"</b>.<br><br>
+&nbsp; ->El octavo, gris, <b>"medium"</b>.<br><br>
+&nbsp; ->Y por último, <b>"light"</b>.<br><br>
+&nbsp; A continuación, se muestra el código para poner color a los toggles mediante la etiqueta <b>"ion-toggle"</b>.
+<br>
+<br>
+&nbsp; <img src="assets/colores.png">
+  </p>
+<h3> &nbsp; &nbsp; <b><u>3.2. Propiedades personalizadas de CSS</u></b></h3>
+<p>
+  &nbsp; Las propiedades personalizadas de CSS se pueden combinar con CSS estándar para apuntar a diferentes partes de un toggle. Podemos modificar el ancho y la altura del toggle <br> &nbsp; directamente para cambiar el tamaño de la pista, mientras usamos las propiedades personalizadas <b>"--handle-width"</b> y <b>"-- handle-height"</b> para personalizar el tamaño del <br> &nbsp; toggle.
+  <br> 
+  &nbsp; En primer lugar tenemos que crearnos el toggle con las siguientes líneas de código:
+<br>
+<br>
+&nbsp; <img src="toggle3.png">
+<br>
+<br>
+&nbsp; El código referente a CSS es recomendable hacerlo en una página aparte. A continuación se muestra el código CSS para cambiar la forma y color de los toggles creados:
+<br>
+<br>
+&nbsp; <img src="CSS.png">
+<br>
+<br>
+&nbsp; El resultado final será este:
+<br>
+<br>
+&nbsp; <img src="toggle4.png">
+</p>
+<h3> &nbsp; &nbsp; <b><u>3.3 Partes de sombras de CSS</u></b></h3>
+<p>
+  &nbsp; Podemos personalizar aún más la alternancia apuntando a partes de sombra específicas que están expuestas. Cualquier propiedad de CSS en estas partes se puede diseñar y <br> &nbsp; también se pueden combinar con propiedades personalizadas de CSS.
+    <br> 
+    &nbsp; Usamos el mismo código que en el apartado anterior para crear el toggle. Pero en la parte de CSS tiene que aparecer lo siguiente:
+    <br>
+    <br>
+    &nbsp; <img src="CSS2.png">
+</p>
+
 
 </ion-content>

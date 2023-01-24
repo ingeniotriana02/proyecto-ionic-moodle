@@ -5,5 +5,28 @@
 </ion-header>
 
 <ion-content>
+  <p>
+    &nbsp; Los selects son controles de formulario para seleccionar una opción u opciones de un conjunto de opciones similar a un elemento select nativo. Cuando un usuario toca el select, aparece un <br> &nbsp; cuadro de diálogo con todas las opciones en una lista grande y fácil de seleccionar.<br>
+    &nbsp; Se debe usar una selección con elementos secundarios <b>"ion-select-option"</b>. Si la opción secundaria no recibe un atributo de valor, su texto se utilizará como valor.
+    <br> &nbsp; Si el valor se establece en <b>"ion-select"</b>, la opción seleccionada se elegirá en función de ese valor.
+        </p>
+  <h1>&nbsp; <b><u>1. SELECCIÓN UNICA</u></b></h1>
+  <p>
+    &nbsp; Por defecto, el select permite al usuario seleccionar solo una opción. La interfaz de alerta presenta a los usuarios una lista de opciones con estilo de botón de radio. El valor del componente <br> &nbsp; seleccionado recibe el valor de la opción selecccionada. 
+
+  </p>
+  <p>
+    <ion-list>
+      <ion-item>
+        <ion-select placeholder="Select fruit">
+          <ion-select-option value="apples">Apples</ion-select-option>
+          <ion-select-option value="oranges">Oranges</ion-select-option>
+          <ion-select-option value="bananas">Bananas</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    &nbsp; En este select de ejemplo se pide que seleccionemos una fruta. Al clickar sobre el select te muestra las distintas opciones y tendríamos que seleccionar la que queramos. El código para <br> &nbsp; hacerlo es el siguiente:<br> <br>
+    &nbsp; <img src="select.png">
+  </p>
 
 </ion-content>
