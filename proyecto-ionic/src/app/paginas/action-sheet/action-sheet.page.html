@@ -6,8 +6,90 @@
 
 <ion-content>
 
+  <ion-item color="primary">
+    <ion-label>
+      <h1>Action-Sheet</h1>
+    </ion-label>
+  </ion-item>
   <ion-button (click)="presentActionSheet()" expand="block" fill="clear" shape="round">
-    Click me
+    Action-sheet
   </ion-button>
 
+  <ion-item color="danger">
+    <ion-label>
+      <h1>Alert</h1>
+    </ion-label>
+  </ion-item>
+
+
+  <ion-button (click)="presentAlert()" expand="block" shape="round">
+    Alert
+  </ion-button>
+
+  <ion-button (click)="AlertBotones()" expand="block" shape="round">
+    Alert con 2 botones
+  </ion-button>
+
+  <p>{{ mensaje }}</p>
+
+  <ion-button (click)="AlertEleccion()" expand="block" shape="round">
+    Alert, elegir una opción
+  </ion-button>
+
+  <ion-button (click)="AlertInputs()" expand="block" shape="round">
+    Alert con inputs
+  </ion-button>
+
+  <ion-button (click)="AlertCSS()" expand="block" shape="round">
+    Alert personalizado
+  </ion-button>
+
+  <ion-item color="warning">
+    <ion-label>
+      <h1>Modal</h1>
+    </ion-label>
+  </ion-item>
+
+  <ion-button id="open-modal" expand="block">Abrir</ion-button>
+
+  <ion-modal trigger="open-modal">
+    <ng-template>
+      <ion-header>
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-button (click)="cancel()">Cancel</ion-button>
+          </ion-buttons>
+          <ion-title>Welcome</ion-title>
+          <ion-buttons slot="end">
+            <ion-button (click)="confirm()" [strong]="true">Confirm</ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-item>
+          <ion-button (click)="presentAlert()" expand="block" shape="round">
+            Alert
+          </ion-button>
+
+          <ion-button (click)="AlertBotones()" expand="block" shape="round">
+            Alert con 2 botones
+          </ion-button>
+
+          <p>{{ mensaje }}</p>
+
+          <ion-button (click)="AlertEleccion()" expand="block" shape="round">
+            Alert, elegir una opción
+          </ion-button>
+
+          <ion-button (click)="AlertInputs()" expand="block" shape="round">
+            Alert con inputs
+          </ion-button>
+
+          <ion-button (click)="AlertCSS()" expand="block" shape="round">
+            Alert personalizado
+          </ion-button>
+        </ion-item>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
 </ion-content>
