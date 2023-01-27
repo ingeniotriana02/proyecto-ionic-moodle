@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'botones',
     loadChildren: () => import('./paginas/botones/botones.module').then( m => m.BotonesPageModule)
   },
+  {
+    path: 'listas-cards',
+    loadChildren: () => import('./paginas/listas-cards/listas-cards.module').then( m => m.ListasCardsPageModule)
+  },
 ];
 
 @NgModule({

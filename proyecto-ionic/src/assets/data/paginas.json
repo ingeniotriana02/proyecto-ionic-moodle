@@ -34,5 +34,11 @@
         "ruta":"/inputs",
         "color":"warning",
         "icono":"text"
+    },
+    {
+        "nombre":"Listas & Cards",
+        "ruta":"/listas-cards",
+        "color":"tertiary",
+        "icono":"list"
     }
 ]
