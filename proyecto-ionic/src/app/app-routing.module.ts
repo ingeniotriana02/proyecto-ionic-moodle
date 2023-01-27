@@ -16,13 +16,11 @@ const routes: Routes = [
     loadChildren: () => import('./paginas/botones/botones.module').then( m => m.BotonesPageModule)
   },
   {
-    path: 'toggle',
-    loadChildren: () => import('./paginas/toggle/toggle.module').then( m => m.TogglePageModule)
+    path: 'avanzados',
+    loadChildren: () => import('./paginas/avanzados/avanzados.module').then( m => m.AvanzadosPageModule)
   },
-  {
-    path: 'checkbox',
-    loadChildren: () => import('./paginas/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
-  },
+  
+  
   {
     path: 'select',
     loadChildren: () => import('./paginas/select/select.module').then( m => m.SelectPageModule)

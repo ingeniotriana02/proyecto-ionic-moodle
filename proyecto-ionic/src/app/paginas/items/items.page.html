@@ -73,9 +73,122 @@
         <ion-label>Disabled Button Item</ion-label>
       </ion-item>
       Codigo:
-      <img src="item2.png">
+      <img src="C:\Users\patri\OneDrive\Escritorio\ionic\proyecto-ionic\item2.png">
 
     </p>
     <h1> <b><u>3. DETALLES DE FLECHAS</u></b> </h1>
-    <p></p>
+    <p>
+      De forma predeterminada, los items en los que se puede hacer click mostraran un icono de flecha hacia la derecha. Para ocultar el icono de la flecha hacia la derecha en los items en los que se pueda hacer click, establezca la propiedad de detalle en falso. Para mostrar el icono de la flecha hacia la derecha en un item que no se muestra de forma natural, establezca la propiedad de detalle en verdadero.
+      <ion-item detail="true">
+        <ion-label>
+          <h3>Text Item</h3>
+          <p>Detail set to true - detail arrow displays on both modes</p>
+        </ion-label>
+      </ion-item>
+      
+      <ion-item button>
+        <ion-label>
+          <h3>Button Item</h3>
+          <p>Default detail - detail arrow displays on iOS only</p>
+        </ion-label>
+      </ion-item>
+      
+      <ion-item button detail="true">
+        <ion-label>
+          <h3>Button Item</h3>
+          <p>Detail set to true - detail arrow displays on both modes</p>
+        </ion-label>
+      </ion-item>
+      
+      <ion-item button detail="false">
+        <ion-label>
+          <h3>Button Item</h3>
+          <p>Detail set to false - detail arrow hidden on both modes</p>
+        </ion-label>
+      </ion-item>
+      
+      <ion-item button detail="true" detail-icon="caret-forward-outline">
+        <ion-label>
+          <h3>Button Item</h3>
+          <p>Detail set to true - detail arrow displays on both modes</p>
+          <p>Detail icon set to caret-forward-outline</p>
+        </ion-label>
+      </ion-item>
+      Codigo: 
+      <img src="item3.png">
+    </p>
+    <h1><b><u>4. LINEAS DE ITEM</u></b></h1>
+    <p>
+      Los items se muestran en un borde inferior insertado de forma predeterminada. El borde tiene relleno a la izquierda y no aparece debajo de ningun contenido que este ubicado en la ranura de "inicio". La propiedad de lineas se puede modificar a "completo" o "ninguno", lo que mostrara un borde de ancho completo o sin borde, respectivamente.
+      <ion-item>
+        <ion-label>
+          Default Item Lines
+        </ion-label>
+      </ion-item>
+      
+      <ion-item lines="inset">
+        <ion-label>Item Lines Inset</ion-label>
+      </ion-item>
+      
+      <ion-item lines="full">
+        <ion-label>Item Lines Full</ion-label>
+      </ion-item>
+      
+      <ion-item lines="none">
+        <ion-label>Item Lines None</ion-label>
+      </ion-item>
+      
+      <ion-item>
+        <ion-icon name="star" slot="start"></ion-icon>
+        <ion-label>Default Item Lines</ion-label>
+        <ion-icon name="information-circle" slot="end"></ion-icon>
+      </ion-item>
+      
+      <ion-item lines="inset">
+        <ion-icon name="star" slot="start"></ion-icon>
+        <ion-label>Item Lines Inset</ion-label>
+        <ion-icon name="information-circle" slot="end"></ion-icon>
+      </ion-item>
+      
+      <ion-item lines="full">
+        <ion-icon name="star" slot="start"></ion-icon>
+        <ion-label>Item Lines Full</ion-label>
+        <ion-icon name="information-circle" slot="end"></ion-icon>
+      </ion-item>
+      
+      <ion-item lines="none">
+        <ion-icon name="star" slot="start"></ion-icon>
+        <ion-label>Item Lines None</ion-label>
+        <ion-icon name="information-circle" slot="end"></ion-icon>
+      </ion-item>
+      Codigo:
+      <img src="item4.png">
+    </p>
+    <h1><b><u>5. MEDIA ITEMS</u></b></h1>
+    <p>
+      Los avatares y las miniaturas se pueden colocar dentro de un item. Esto es util al hacer listas de imagenes y texto.
+      <ion-item>
+        <ion-avatar slot="start">
+          <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+        <ion-label>
+          Avatar Item
+        </ion-label>
+      </ion-item>
+      
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+        </ion-thumbnail>
+        <ion-label>
+          Thumbnail Item
+        </ion-label>
+      </ion-item>
+      Codigo:
+      <img src="item5.png">
+      <img src="item6.png">
+
+    </p>
+
+    <h1><b><u>6. BOTONES EN ITEMS</u></b></h1>
 </ion-content>

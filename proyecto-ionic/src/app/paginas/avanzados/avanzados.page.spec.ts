@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { CheckboxPage } from './checkbox.page';
+import { AvanzadosPage } from './avanzados.page';
 
-describe('CheckboxPage', () => {
-  let component: CheckboxPage;
-  let fixture: ComponentFixture<CheckboxPage>;
+describe('AvanzadosPage', () => {
+  let component: AvanzadosPage;
+  let fixture: ComponentFixture<AvanzadosPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ CheckboxPage ],
+      declarations: [ AvanzadosPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(CheckboxPage);
+    fixture = TestBed.createComponent(AvanzadosPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

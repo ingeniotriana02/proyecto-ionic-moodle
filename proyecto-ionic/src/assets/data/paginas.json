@@ -6,11 +6,12 @@
         "icono":"add-circle"
     },
     {
-        "nombre":"Toggle",
-        "ruta":"/toggle",
+        "nombre":"Botones Avanzados",
+        "ruta":"/avanzados",
         "color":"danger",
-        "icono":"toggle"
+        "icono":"ellipsis-horizontal-circle-outline"
     },
+    
     {
         "nombre":"CheckBox",
         "ruta":"/checkbox",
