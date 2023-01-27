@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'listas-cards',
     loadChildren: () => import('./paginas/listas-cards/listas-cards.module').then( m => m.ListasCardsPageModule)
+  },  {
+    path: 'tabs',
+    loadChildren: () => import('./paginas/tabs/tabs.module').then( m => m.TabsPageModule)
   },
+
 ];
 
 @NgModule({

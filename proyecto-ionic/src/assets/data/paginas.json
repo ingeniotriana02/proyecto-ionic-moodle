@@ -40,5 +40,11 @@
         "ruta":"/listas-cards",
         "color":"tertiary",
         "icono":"list"
+    },
+    {
+        "nombre":"Tabs",
+        "ruta":"/tabs",
+        "color":"success",
+        "icono":"grid"
     }
 ]
