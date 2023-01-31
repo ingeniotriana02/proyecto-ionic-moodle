@@ -46,5 +46,11 @@
       "ruta":"/action-sheet",
       "color":"primary",
       "icono":"text"
-  }
+    },
+    {
+        "nombre":"Menu",
+        "ruta":"/menu",
+        "color":"success",
+        "icono":"apps-outline"
+      }
 ]

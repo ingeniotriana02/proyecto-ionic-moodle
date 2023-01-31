@@ -42,7 +42,11 @@ const routes: Routes = [
   {
     path: 'action-sheet',
     loadChildren: () => import('./paginas/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
+  },  {
+    path: 'menu',
+    loadChildren: () => import('./paginas/menu/menu.module').then( m => m.MenuPageModule)
   }
+
 
 ];
 
