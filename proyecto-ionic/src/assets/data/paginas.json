@@ -12,18 +12,7 @@
         "icono":"ellipsis-horizontal-circle-outline"
     },
     
-    {
-        "nombre":"CheckBox",
-        "ruta":"/checkbox",
-        "color":"secondary",
-        "icono":"checkbox"
-    },
-    {
-        "nombre":"Select",
-        "ruta":"/select",
-        "color":"tertiary",
-        "icono":"checkmark"
-    },
+   
     {
         "nombre":"Navegacion",
         "ruta":"/navegacion",
@@ -41,6 +30,12 @@
         "ruta":"/items",
         "color":"medium",
         "icono":"pricetag"
+    },
+    {
+        "nombre":"Toolbars",
+        "ruta":"/toolbars",
+        "color":"secondary",
+        "icono":"hammer"
     }
     
 

@@ -23,6 +23,10 @@ const routes: Routes = [
   {
     path: 'avanzados',
     loadChildren: () => import('./avanzados/avanzados.module').then( m => m.AvanzadosPageModule)
+  },
+  {
+    path: 'toolbars',
+    loadChildren: () => import('./toolbars/toolbars.module').then( m => m.ToolbarsPageModule)
   }
 ];
 

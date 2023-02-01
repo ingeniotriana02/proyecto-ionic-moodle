@@ -21,10 +21,7 @@ const routes: Routes = [
   },
   
   
-  {
-    path: 'select',
-    loadChildren: () => import('./paginas/select/select.module').then( m => m.SelectPageModule)
-  },
+  
   {
     path: 'navegacion',
     loadChildren: () => import('./paginas/navegacion/navegacion.module').then( m => m.NavegacionPageModule)
@@ -36,7 +33,12 @@ const routes: Routes = [
   {
     path: 'items',
     loadChildren: () => import('./paginas/items/items.module').then( m => m.ItemsPageModule)
+  },
+  {
+    path: 'toolbars',
+    loadChildren: () => import('./paginas/toolbars/toolbars.module').then( m => m.ToolbarsPageModule)
   }
+
 
 ];
 
