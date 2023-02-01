@@ -24,16 +24,8 @@ const routes: Routes = [
     loadChildren: () => import('./paginas/inputs/inputs.module').then( m => m.InputsPageModule)
   },
   {
-    path: 'toggle',
-    loadChildren: () => import('./paginas/toggle/toggle.module').then( m => m.TogglePageModule)
-  },
-  {
-    path: 'checkbox',
-    loadChildren: () => import('./paginas/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
-  },
-  {
-    path: 'select',
-    loadChildren: () => import('./paginas/select/select.module').then( m => m.SelectPageModule)
+    path: 'avanzados',
+    loadChildren: () => import('./paginas/avanzados/avanzados.module').then( m => m.AvanzadosPageModule)
   },
   {
     path: 'navegacion',
@@ -42,11 +34,19 @@ const routes: Routes = [
   {
     path: 'action-sheet',
     loadChildren: () => import('./paginas/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
-  },  {
+  },
+  {
     path: 'menu',
     loadChildren: () => import('./paginas/menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'items',
+    loadChildren: () => import('./paginas/items/items.module').then( m => m.ItemsPageModule)
+  },
+  {
+    path: 'toolbars',
+    loadChildren: () => import('./paginas/toolbars/toolbars.module').then( m => m.ToolbarsPageModule)
   }
-
 
 ];
 

@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { CheckboxPageRoutingModule } from './checkbox-routing.module';
+import { AvanzadosPageRoutingModule } from './avanzados-routing.module';
 
-import { CheckboxPage } from './checkbox.page';
+import { AvanzadosPage } from './avanzados.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CheckboxPageRoutingModule
+    AvanzadosPageRoutingModule
   ],
-  declarations: [CheckboxPage]
+  declarations: [AvanzadosPage]
 })
-export class CheckboxPageModule {}
+export class AvanzadosPageModule {}

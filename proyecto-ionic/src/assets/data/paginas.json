@@ -12,10 +12,10 @@
         "icono":"apps-outline"
     },
     {
-        "nombre":"Toggle",
-        "ruta":"/toggle",
+        "nombre":"Botones Avanzados",
+        "ruta":"/avanzados",
         "color":"secondary",
-        "icono":"toggle"
+        "icono":"ellipsis-horizontal-circle-outline"
     },
     {
         "nombre":"Checkbox",
@@ -39,18 +39,8 @@
         "nombre":"Inputs",
         "ruta":"/inputs",
         "color":"warning",
-        "icono":"text"
-    },
-    {
-      "nombre":"Action-sheet",
-      "ruta":"/action-sheet",
-      "color":"primary",
-      "icono":"text"
-    },
-    {
-        "nombre":"Menu",
-        "ruta":"/menu",
-        "color":"success",
-        "icono":"apps-outline"
-      }
+        "icono":"arrow-redo"
+    }
+
+    
 ]
