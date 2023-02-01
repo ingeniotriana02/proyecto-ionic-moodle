@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BotonesPage implements OnInit {
 
+  public valor:number = 0
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+
+  sumar(){    
+    this.valor += 1;
+    document.getElementById('valor').innerHTML = this.valor.toString();
+  }
+
+  restar(){
+    this.valor -= 1;
+    document.getElementById('valor').innerHTML = this.valor.toString();
   }
 
 }

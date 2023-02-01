@@ -1,9 +1,46 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>botones</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-cabecera color="primary" titulo="Botones"></app-cabecera>
 
 <ion-content>
+
+  <ion-text  class="ion-text-center" color="primary">
+    <h1 id="valor">0</h1>
+  </ion-text>
+
+
+  <ion-button>Botón 1</ion-button>
+
+  <ion-button color="danger" shape="round">Botón 2</ion-button>
+
+  <ion-button color="dark" fill="clear">Botón 3</ion-button>
+
+  <ion-button color="dark" fill="outline">Botón 4</ion-button>
+
+  <ion-button color="success" expand="block">Botón 5</ion-button>
+
+  <ion-button color="success" [disabled]="true" expand="full">Botón 6</ion-button>
+
+  <ion-button color="dark" size="small">Botón 7</ion-button>
+
+  <ion-button color="danger">
+    <ion-icon slot="start" name="wallet"></ion-icon>
+    Botón 8
+  </ion-button>
+
+  <ion-button color="warning">
+    <ion-icon slot="icon-only" name="star"></ion-icon>
+  </ion-button>
+
+  <!-- BOTONES CON FUNCIONES -->
+
+  <ion-button (click)="sumar()" expand="block">
+    <ion-icon slot="start" name="arrow-up"></ion-icon>
+    Sumar
+  </ion-button>
+
+  <ion-button (click)="restar()" expand="block">
+    <ion-icon slot="start" name="arrow-down"></ion-icon>
+    Restar
+  </ion-button>
+
 
 </ion-content>

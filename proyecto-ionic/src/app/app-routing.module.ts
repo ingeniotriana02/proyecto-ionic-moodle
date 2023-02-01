@@ -16,6 +16,18 @@ const routes: Routes = [
     loadChildren: () => import('./paginas/botones/botones.module').then( m => m.BotonesPageModule)
   },
   {
+    path: 'listas-cards',
+    loadChildren: () => import('./paginas/listas-cards/listas-cards.module').then( m => m.ListasCardsPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./paginas/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./paginas/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
     path: 'item',
     loadChildren: () => import('./paginas/item/item.module').then( m => m.ItemPageModule)
   },

@@ -40,6 +40,24 @@
         "ruta":"/toolbars",
         "color":"success",
         "icono":"radio-button-on-outline"
+    },
+    {
+        "nombre":"Listas & Cards",
+        "ruta":"/listas-cards",
+        "color":"tertiary",
+        "icono":"list"
+    },
+    {
+        "nombre":"Tabs",
+        "ruta":"/tabs",
+        "color":"success",
+        "icono":"grid"
+    },
+    {
+        "nombre":"Login",
+        "ruta":"/login",
+        "color":"primary",
+        "icono":"log-in"
     }
 
     
