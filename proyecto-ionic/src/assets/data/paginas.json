@@ -18,18 +18,6 @@
         "icono":"ellipsis-horizontal-circle-outline"
     },
     {
-        "nombre":"Checkbox",
-        "ruta":"/checkbox",
-        "color":"tertiary",
-        "icono":"checkbox"
-    },
-    {
-        "nombre":"Select",
-        "ruta":"/Select",
-        "color":"success",
-        "icono":"checkmark"
-    },
-    {
         "nombre":"Navegación",
         "ruta":"/navegacion",
         "color":"danger",
@@ -40,6 +28,18 @@
         "ruta":"/inputs",
         "color":"warning",
         "icono":"arrow-redo"
+    },
+    {
+        "nombre":"Menu",
+        "ruta":"/menu",
+        "color":"secondary",
+        "icono":"menu"
+    },
+    {
+        "nombre":"Toolbars",
+        "ruta":"/toolbars",
+        "color":"success",
+        "icono":"radio-button-on-outline"
     }
 
     
