@@ -30,12 +30,6 @@
         "icono":"ellipsis-horizontal-circle-outline"
     },
     {
-        "nombre":"Navegación",
-        "ruta":"/navegacion",
-        "color":"tertiary",
-        "icono":"git-branch"
-    },
-    {
         "nombre":"Menu",
         "ruta":"/menu",
         "color":"warning",
